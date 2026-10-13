@@ -81,11 +81,8 @@ p { margin: 0 0 1em; }
 .btn-ghost:hover { background: rgba(255,255,255,0.12); }
 
 /* Hero */
-.hero { position: relative; color: #fff; background: var(--navy-dark) url("../images/skyline.jpg") center / cover no-repeat; overflow: hidden; }
+.hero { position: relative; color: #fff; background: var(--navy-dark); overflow: hidden; }
 .hero::before { content: ""; position: absolute; inset: 0; background: linear-gradient(100deg, rgba(10,37,71,0.95) 0%, rgba(10,37,71,0.82) 48%, rgba(0,74,152,0.45) 100%); }
-.hero.hero-globe { background: #071b36 url("../images/hero-globe.svg") 70% center / cover no-repeat; }
-.hero.hero-globe::before { background: linear-gradient(90deg, rgba(7,27,54,0.92) 0%, rgba(7,27,54,0.7) 38%, rgba(7,27,54,0) 65%); }
-@media (max-width: 880px) { .hero.hero-globe::before { background: rgba(7,27,54,0.72); } }
 .hero.hero-logo { background: radial-gradient(circle at 76% 50%, rgba(49,141,222,0.28), rgba(49,141,222,0) 38%), linear-gradient(115deg, #071b36 0%, #0a2b57 55%, #0b3f7e 100%); }
 .hero.hero-logo::before { background: none; }
 .hero.hero-logo::after { content: ""; position: absolute; right: 4%; top: 50%; transform: translateY(-50%); width: min(40vw, 580px); aspect-ratio: 984 / 538; background: url("../images/hero-logo-globe.png") center / contain no-repeat; opacity: 0.92; pointer-events: none; }
