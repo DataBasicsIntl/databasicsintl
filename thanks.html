@@ -12,7 +12,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css?v=1">
+  <link rel="stylesheet" href="css/styles.css?v=3">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -24,9 +24,17 @@
       <nav class="nav" id="site-nav" aria-label="Main">
         <a href="./">Home</a>
         <a href="about.html">About</a>
-        <a href="services.html">Services</a>
+        <div class="dropdown">
+          <a class="dropdown-toggle" href="services.html" aria-haspopup="true">Services <svg class="caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></a>
+          <div class="dropdown-menu">
+            <a href="services.html#interim">Interim &amp; Fractional CIO / CTO</a>
+            <a href="services.html#advisory">CIO Advisory Services</a>
+            <a href="services.html#architecture">Enterprise Architecture</a>
+            <a href="services.html#due-diligence">Technology Due Diligence</a>
+            <a href="services.html#optimization">Technology Optimization</a>
+          </div>
+        </div>
         <a href="contact.html">Contact</a>
-        <a class="btn" href="contact.html#request">Talk to Us</a>
       </nav>
     </div>
   </header>
@@ -37,7 +45,7 @@
         <div class="icon" style="margin:0 auto 20px;width:64px;height:64px"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:32px;height:32px"><path d="M5 12l5 5L20 7"/></svg></div>
         <h1>Thank you!</h1>
         <p style="font-size:1.15rem;color:var(--muted)">Your message has been sent. We reply within 24 hours.</p>
-        <p>Need us sooner? Call <a href="tel:+14043142207">+1 (404) 314-2207</a>.</p>
+        <p>Need us sooner? Call <a href="tel:+14043142207" target="_blank" rel="noopener">+1 (404) 314-2207</a>.</p>
         <p style="margin-top:28px"><a class="btn" href="./">Back to Home</a></p>
       </div>
     </section>
@@ -72,7 +80,7 @@
         <div>
           <h3>Contact</h3>
           <address>320 Town Center Avenue<br>Suite C11-270<br>Suwanee, GA 30024</address>
-          <p style="margin-top:10px"><a href="tel:+14043142207">+1 (404) 314-2207</a><br><a href="mailto:info@DataBasicsIntl.com">info@DataBasicsIntl.com</a></p>
+          <p style="margin-top:10px"><a href="tel:+14043142207" target="_blank" rel="noopener">+1 (404) 314-2207</a><br><a href="mailto:info@DataBasicsIntl.com">info@DataBasicsIntl.com</a></p>
         </div>
       </div>
       <div class="footer-bottom">
@@ -82,6 +90,6 @@
     </div>
   </footer>
 
-  <script src="js/main.js?v=1"></script>
+  <script src="js/main.js?v=2"></script>
 </body>
 </html>
