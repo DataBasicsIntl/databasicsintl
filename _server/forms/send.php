@@ -220,4 +220,4 @@ $hits[] = $now;
 if (!$sent) {
     respond(500, false, 'Sorry, your message could not be sent. Please email ' . TO_EMAIL . ' or call +1 (404) 314-2207.', 'failed');
 }
-respond(200, true, "Thank you! Your message has been sent. We reply within 24 hours.");
+respond(200, true, "Thank you! Your message has been sent. We will reply promptly.");

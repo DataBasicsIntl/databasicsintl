@@ -118,10 +118,11 @@ p { margin: 0 0 1em; }
 .card-feature { background: var(--card-bg, var(--navy)); border-color: transparent; color: #fff; }
 /* Home service cards: graded from deep navy to brand blue */
 .services-graded .card-feature:nth-child(1) { --card-bg: #0a2547; }
-.services-graded .card-feature:nth-child(2) { --card-bg: #0b3463; }
-.services-graded .card-feature:nth-child(3) { --card-bg: #0a4080; }
-.services-graded .card-feature:nth-child(4) { --card-bg: #004a98; }
-.services-graded .card-feature:nth-child(5) { --card-bg: #0d5aae; }
+.services-graded .card-feature:nth-child(2) { --card-bg: #0b315e; }
+.services-graded .card-feature:nth-child(3) { --card-bg: #0a3c76; }
+.services-graded .card-feature:nth-child(4) { --card-bg: #04468e; }
+.services-graded .card-feature:nth-child(5) { --card-bg: #0652a6; }
+.services-graded .card-feature:nth-child(6) { --card-bg: #1160b8; }
 .card-feature .more:hover { color: #fff; }
 .card-feature h3 { color: #fff; }
 .card-feature p { color: rgba(255,255,255,0.86); }
