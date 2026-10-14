@@ -178,6 +178,8 @@ p { margin: 0 0 1em; }
 /* Contact */
 .contact-grid { display: grid; grid-template-columns: 1fr 1.45fr; gap: 44px; align-items: start; }
 @media (max-width: 880px) { .contact-grid { grid-template-columns: 1fr; } }
+.contact-details { padding-top: 34px; }
+@media (max-width: 880px) { .contact-details { padding-top: 0; } }
 .contact-item { display: flex; gap: 14px; align-items: flex-start; margin-bottom: 22px; }
 .contact-item .icon { margin: 0; width: 46px; height: 46px; }
 .contact-item strong { display: block; font-family: var(--head); }
