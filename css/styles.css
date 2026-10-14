@@ -5,6 +5,7 @@
   --navy-ink: #0d1b2e;    /* headings */
   --blue: #318dde;        /* logo swoosh */
   --tan: #d2b786;         /* logo globe */
+  --gold: #d9a93f;        /* bullets: warmer gold to match the logo */
   --tan-light: #f6f0e4;
   --ink: #1f2a37;
   --muted: #586474;
@@ -234,12 +235,12 @@ input:focus, select:focus, textarea:focus { outline: 3px solid rgba(49, 141, 222
 .industries-card h3 { color: #fff; font-size: 1.35rem; margin-bottom: 18px; }
 .industries { list-style: none; margin: 0; padding: 0; columns: 2; column-gap: 28px; }
 .industries li { break-inside: avoid; position: relative; padding: 7px 0 7px 20px; border-bottom: 1px solid rgba(255,255,255,0.1); color: rgba(255,255,255,0.92); }
-.industries li::before { content: ""; position: absolute; left: 0; top: 50%; width: 8px; height: 8px; margin-top: -4px; border-radius: 50%; background: var(--tan); }
+.industries li::before { content: ""; position: absolute; left: 0; top: 50%; width: 8px; height: 8px; margin-top: -4px; border-radius: 50%; background: var(--gold); }
 @media (max-width: 400px) { .industries { columns: 1; } }
 
 /* Services page: graded cards */
 .service-card { scroll-margin-top: 96px; }
 .service-card h3 { font-size: 1.3rem; }
 .card-feature .checks li { color: rgba(255,255,255,0.9); font-size: 0.97rem; }
-.card-feature .checks li::before { background-color: var(--tan); }
+.card-feature .checks li::before { background: var(--gold) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%230a2547' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12l5 5L20 7'/%3E%3C/svg%3E") center / 12px no-repeat; }
 .card-feature .checks { margin-bottom: 0; }
