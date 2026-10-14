@@ -25,7 +25,6 @@ const ALLOWED_ORIGINS = [
     'https://databasicsintl.com',
     'https://www.databasicsintl.com',
     'https://databasicsintl.github.io',
-    'http://localhost:8081',
 ];
 const ALLOWED_EXT = [
     'pdf', 'doc', 'docx', 'rtf', 'txt', 'odt', 'pages',
@@ -108,7 +107,7 @@ if (!empty($_POST['_gotcha'])) {
 }
 
 $ip = $_SERVER['REMOTE_ADDR'] ?? 'unknown';
-$rateFile = sys_get_temp_dir() . '/ws_form_' . md5($ip);
+$rateFile = sys_get_temp_dir() . '/dbi_form_' . md5($ip);
 $now = time();
 $hits = [];
 if (is_file($rateFile)) {
