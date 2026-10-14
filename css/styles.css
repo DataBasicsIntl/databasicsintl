@@ -236,3 +236,10 @@ input:focus, select:focus, textarea:focus { outline: 3px solid rgba(49, 141, 222
 .industries li { break-inside: avoid; position: relative; padding: 7px 0 7px 20px; border-bottom: 1px solid rgba(255,255,255,0.1); color: rgba(255,255,255,0.92); }
 .industries li::before { content: ""; position: absolute; left: 0; top: 50%; width: 8px; height: 8px; margin-top: -4px; border-radius: 50%; background: var(--tan); }
 @media (max-width: 400px) { .industries { columns: 1; } }
+
+/* Services page: graded cards */
+.service-card { scroll-margin-top: 96px; }
+.service-card h3 { font-size: 1.3rem; }
+.card-feature .checks li { color: rgba(255,255,255,0.9); font-size: 0.97rem; }
+.card-feature .checks li::before { background-color: var(--tan); }
+.card-feature .checks { margin-bottom: 0; }
